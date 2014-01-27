@@ -1,5 +1,5 @@
 from django.contrib import admin
-from app.yijian.models import Yijian
+from app.weixin1.models import Yijian
 
 class YijianAdmin(admin.ModelAdmin):
     list_display = ('id', 'brief', 'content')
